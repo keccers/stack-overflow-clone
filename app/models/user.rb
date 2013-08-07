@@ -1,6 +1,5 @@
 class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation, :about
-  attr_accessor :password, :password_confirmation
   
   validates_presence_of :name, :email, :password, :password_confirmation
   validates :email, format: {with: /.+@.+\..+/}, uniqueness: true
@@ -10,4 +9,5 @@ class User < ActiveRecord::Base
   has_many :comments, foreign_key: 'commenter_id'
   has_many :votes
 
+  has_secure_password
 end
