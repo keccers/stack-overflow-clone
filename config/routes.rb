@@ -20,5 +20,5 @@ DbcOverflow::Application.routes.draw do
   post    '/login' => 'sessions#create'
   delete '/logout' => 'sessions#destroy'
 
-  root :to => "question#index"
+  root :to => "questions#index"
 end
