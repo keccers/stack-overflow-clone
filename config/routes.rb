@@ -1,5 +1,5 @@
 DbcOverflow::Application.routes.draw do
-  resources :question do
+  resources :questions do
     resource :comments
     resource :answers
     resource :votes
@@ -14,7 +14,7 @@ DbcOverflow::Application.routes.draw do
     resource :votes
   end
 
-  resource :users
+  resources :users
 
   root :to => "question#index"
 end
