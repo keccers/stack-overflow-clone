@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  before_action :correct_user, only: [:edit, :destroy]
 
   def index
     @users = User.all
@@ -42,5 +43,12 @@ class UsersController < ApplicationController
     @user.destroy
     redirect_to root_url
   end
+
+
+  private
+
+    def correct_user
+      redirect_to root_url unless current_user && params[:id] == current_user.id
+    end
 
 end
