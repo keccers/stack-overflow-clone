@@ -5,6 +5,7 @@ class CreateQuestions < ActiveRecord::Migration
       t.text :text
       t.integer :asker_id
       t.integer :best_answer_id
+      t.timestamps
     end
   end
 end
