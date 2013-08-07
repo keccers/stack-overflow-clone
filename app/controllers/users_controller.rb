@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :correct_user, only: [:edit, :destroy]
+  before_filter :correct_user, only: [:edit, :destroy]
 
   def index
     @users = User.all

@@ -1,6 +1,6 @@
 class QuestionsController < ApplicationController
-  before_action :user_signed_in?, only: :create
-  before_action :correct_user, only: :destroy
+  before_filter :user_signed_in?, only: :create
+  before_filter :correct_user, only: :destroy
 
   def index
     @questions = Question.all
