@@ -1,0 +1,8 @@
+<%= link_to("Create A New Question", new_question_path) %>
+<% if @questions %>
+  <% @questions.each do |question| %>
+    <h2><%= question.title %></h2>
+  <% end %>
+<% else %>
+  <h1>No one's asked any questions yet. :(</h1>
+<% end %>

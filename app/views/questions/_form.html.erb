@@ -1,0 +1,9 @@
+<%= form_for [question], html: {class: "create-post"} do |f| %>
+<%= f.label :title, 'Question Title' %>
+<%= f.text_field :title %>
+<%= f.label :text, 'Question Text' %>
+<%= f.text_area :text %>
+<%= f.label :tag_list, "Tags" %>
+<%= f.text_field :tag_list %>
+<%= f.submit  %>
+<% end %>
