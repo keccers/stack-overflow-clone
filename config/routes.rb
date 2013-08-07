@@ -1,5 +1,5 @@
 DbcOverflow::Application.routes.draw do
-  resources :question do
+  resources :questions do
     resource :comments
     resource :answers
     resource :votes
