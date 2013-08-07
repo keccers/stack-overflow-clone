@@ -1,5 +1,6 @@
 class Question < ActiveRecord::Base
-  attr_accessible :title, :text
+  attr_accessor :tag_list
+  attr_accessible :title, :text, :tag_list
   validates_presence_of :title, :text, :asker_id
 
   belongs_to :asker, class_name: "User"
