@@ -10,4 +10,13 @@ class Question < ActiveRecord::Base
   has_many :votes, as: :votable
   has_many :questions_tags
   has_many :tags, through: :questions_tags
+
+  before_save :create_tag_list
+
+  private
+
+  def create_tag_list
+    tag_list.split(",").each { |tag| tags << Tag.find_or_create_by_text(tag.strip) }
+  end
+
 end
