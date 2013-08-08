@@ -6,4 +6,16 @@ class Answer < ActiveRecord::Base
   belongs_to :question
   has_many :votes, as: :votable, dependent: :destroy
   has_many :comments, as: :commentable, dependent: :destroy
+
+  def vote_count
+    self.upvotes - self.downvotes
+  end
+
+  def upvotes
+    self.votes.where("value = ?", 1).count
+  end
+
+  def downvotes
+    self.votes.where("value = ?", -1).count
+  end
 end
