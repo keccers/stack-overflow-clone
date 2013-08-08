@@ -1,5 +1,3 @@
-require 'factory_girl'
-
 module AuthHelper
   def login
     user = FactoryGirl.create(:user)
