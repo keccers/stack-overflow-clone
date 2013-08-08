@@ -5,13 +5,13 @@ class Question < ActiveRecord::Base
 
   belongs_to :asker, class_name: "User"
   has_many :answers
-  has_one :best_answer, class_name: "Answer"
+  belongs_to :best_answer, class_name: "Answer"
   has_many :comments, as: :commentable
   has_many :votes, as: :votable
   has_many :questions_tags
   has_many :tags, through: :questions_tags
 
-  before_save :create_tag_list
+  before_create :create_tag_list
 
   private
 

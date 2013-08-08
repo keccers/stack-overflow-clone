@@ -26,7 +26,11 @@ class QuestionsController < ApplicationController
   end
 
   def best_answer
-    
+    @answer = Answer.find(params[:best_answer][:answer_id])
+    @question = @answer.question
+    @question.best_answer_id = @answer.id
+    @question.save
+    render partial: "answers/best_answer", layout: false
   end
 
   private
