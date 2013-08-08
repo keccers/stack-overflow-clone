@@ -1,4 +1,5 @@
 class VotesController < ApplicationController
+  before_filter :user_signed_in?
   before_filter :find_votable
 
   def new
