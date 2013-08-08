@@ -6,9 +6,9 @@ class Question < ActiveRecord::Base
   belongs_to :asker, class_name: "User"
   has_many :answers
   belongs_to :best_answer, class_name: "Answer"
-  has_many :comments, as: :commentable
-  has_many :votes, as: :votable
-  has_many :questions_tags
+  has_many :comments, as: :commentable, dependent: :destroy
+  has_many :votes, as: :votable, dependent: :destroy
+  has_many :questions_tags, dependent: :destroy
   has_many :tags, through: :questions_tags
 
   before_create :create_tag_list
