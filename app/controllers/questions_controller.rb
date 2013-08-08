@@ -19,7 +19,7 @@ class QuestionsController < ApplicationController
     if @question.save
       redirect_to root_url
     else
-      redirect to root_url
+      redirect_to root_url
     end
   end
 
