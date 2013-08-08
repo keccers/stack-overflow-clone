@@ -1,8 +1,8 @@
 <%= link_to("Create A New Question", new_question_path) %>
-<% if @questions %>
+<% if !@questions.empty? %>
   <% @questions.each do |question| %>
     <h2><%= question.title %></h2>
   <% end %>
 <% else %>
-  <h1>No one's asked any questions yet. :(</h1>
+  <h2>No one's asked any questions yet. :(</h2>
 <% end %>
