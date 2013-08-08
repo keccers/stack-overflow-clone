@@ -1,4 +1,4 @@
-<span>Total Vote Score</span>
+<span><%=votable.vote_count%></span>
 <%= form_for [votable, @vote] do |f| %>
   <%= f.hidden_field :value, value: 1 %>
   <%= f.hidden_field :votable_type, value: votable.class %>

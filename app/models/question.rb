@@ -13,6 +13,18 @@ class Question < ActiveRecord::Base
 
   before_create :create_tag_list
 
+  def vote_count
+    self.upvotes - self.downvotes
+  end
+
+  def upvotes
+    self.votes.where("value = ?", 1).count
+  end
+
+  def downvotes
+    self.votes.where("value = ?", -1).count
+  end
+
   private
 
   def create_tag_list
