@@ -1,0 +1,6 @@
+<%= form_for [@commentable, @comment], html: {class: "create-comment"} do |f| %>
+<%= f.label :text, 'Comment Text' %>
+<%= f.text_area :text %>
+<%= f.hidden_field :commenter_id, value: current_user.id %>
+<%= f.submit  %>
+<% end %>
