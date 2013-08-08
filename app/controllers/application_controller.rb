@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   end
 
   def user_signed_in?
-    redirect_to root_url unless current_user
+    redirect_to login_url unless current_user
   end
 
   helper_method :current_user
