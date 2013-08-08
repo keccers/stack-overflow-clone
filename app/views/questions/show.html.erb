@@ -6,3 +6,17 @@
     <li><%= tag.text %></li>
   <% end %>
 </ul>
+
+<% @question.answers.each do |answer| %>
+  <%= render partial: "answers/answer", layout: false, locals: {answer: answer} %>
+<% end %>
+
+<% if current_user %> 
+  <h4>Answer this question:</h4>
+  <%= form_for @answer do |f| %>
+  <%= f.label :text, "Answer" %>
+  <%= f.text_area :text, size: "50x5" %>
+  <%= f.hidden_field :question_id, value: @question.id  %>
+  <%= f.submit %>
+  <% end %>
+<% end %>

@@ -1,5 +1,5 @@
 class Answer < ActiveRecord::Base
-  attr_accessible :text
+  attr_accessible :text, :question_id
   validates_presence_of :text, :question_id, :responder_id
 
   belongs_to :responder, class_name: "User"
