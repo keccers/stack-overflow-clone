@@ -9,7 +9,7 @@
 
 <%= render partial: "votes/answer_vote", layout: false, locals: {votable: answer} %>
 
-<% if current_user.id == answer.question.asker_id %>
+<% if current_user && current_user.id == answer.question.asker_id %>
   <%= form_for :best_answer, :url => best_answer_path, html: {class: "best-answer"} do |f| %>
     <%= f.hidden_field :answer_id, value: answer.id %>
     <%= f.submit "This is the best answer!" %>

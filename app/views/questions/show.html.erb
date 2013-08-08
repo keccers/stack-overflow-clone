@@ -14,7 +14,13 @@
   <%= link_to "Add Comment", new_question_comments_path(@question) %>
 </div>
 
+<% if @question.best_answer_id %>
+<h4>Best Answer:</h4>
+<%= render partial: "answers/answer", layout: false, locals: {answer: @question.best_answer} %>
+<% end %>
+
 <% @question.answers.each do |answer| %>
+  <% next if answer.id == @question.best_answer_id %>
   <%= render partial: "answers/answer", layout: false, locals: {answer: answer} %>
 <% end %>
 
