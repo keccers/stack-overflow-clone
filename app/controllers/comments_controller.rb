@@ -1,4 +1,5 @@
 class CommentsController < ApplicationController
+  before_filter :user_signed_in?, only: :new
   before_filter :find_commentable
 
   def new
