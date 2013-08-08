@@ -6,5 +6,4 @@
   <% end %>
   <%= link_to "Add Comment", new_answer_comments_path(answer) %>
 </div>
-<%= render partial: "votes/vote", layout: false, locals: {votable: answer} %>
-
+<%= render partial: "votes/answer_vote", layout: false, locals: {votable: answer} %>

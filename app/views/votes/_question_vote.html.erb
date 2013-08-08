@@ -1,0 +1,14 @@
+<span>Total Vote Score</span>
+<%= form_for [votable, @vote] do |f| %>
+  <%= f.hidden_field :value, value: 1 %>
+  <%= f.hidden_field :votable_type, value: votable.class %>
+  <%= f.hidden_field :votable_id, value: votable.id %>
+  <%= f.submit "Upvote" %>
+<% end %>
+
+<%= form_for [votable, @vote] do |f| %>
+  <%= f.hidden_field :value, value: -1 %>
+  <%= f.hidden_field :votable_type, value: votable.class %>
+  <%= f.hidden_field :votable_id, value: votable.id %>
+  <%= f.submit "Downvote" %>
+<% end %>
