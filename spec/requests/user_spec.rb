@@ -5,11 +5,11 @@ include AuthHelper
 include QuestionHelper
 
   context "on homepage" do 
-  before do
-    visit questions_url
-  end
+    before do
+      visit questions_url
+    end
 
-    context "logged out" 
+    context "logged out" do
       it "can create a new user" do
         click_link "Sign Up"
         expect(current_path).to eql(new_user_path)

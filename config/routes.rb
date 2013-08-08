@@ -16,9 +16,11 @@ DbcOverflow::Application.routes.draw do
 
   resources :users
 
-  get     '/login' => 'sessions#new'
-  post    '/login' => 'sessions#create'
-  delete '/logout' => 'sessions#destroy'
+  get     '/login' => 'sessions#new', :as => :login
+  post    '/login' => 'sessions#create', :as => :login
+  delete '/logout' => 'sessions#destroy', :as => :logout
+
+  post '/bestanswer' => 'questions#best_answer', :as => :best_answer
 
   root :to => "questions#index"
 end
