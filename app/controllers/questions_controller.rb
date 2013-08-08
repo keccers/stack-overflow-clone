@@ -9,7 +9,6 @@ class QuestionsController < ApplicationController
   def show
     @question = Question.find(params[:id])
     @answer = Answer.new
-    @vote   = Vote.new
   end
 
   def new
@@ -34,8 +33,9 @@ class QuestionsController < ApplicationController
   end
 
   private
-  def correct_user
-    question = Question.find(params[:id])
-    redirect_to root_url unless current_user && question.asker_id == current_user.id
-  end
+
+    def correct_user
+      question = Question.find(params[:id])
+      redirect_to root_url unless current_user && question.asker_id == current_user.id
+    end
 end
