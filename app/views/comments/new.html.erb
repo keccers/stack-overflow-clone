@@ -1,0 +1,5 @@
+<%= form_for :comment, html: {class: "create-comment"} do |f| %>
+<%= f.label :text, 'Comment Text' %>
+<%= f.text_area :text %>
+<%= f.submit  %>
+<% end %>
