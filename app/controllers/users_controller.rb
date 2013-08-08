@@ -11,12 +11,14 @@ class UsersController < ApplicationController
       session[:user_id] = @user.id
       redirect_to @user
     else
+      @user.errors.delete(:password_digest) if @user.errors[:password_digest]
       @errors = @user.errors.full_messages
       render 'new'
     end
   end
 
   def new
+    @user = User.new
   end
 
   def show
