@@ -25,6 +25,10 @@ class QuestionsController < ApplicationController
     end
   end
 
+  def best_answer
+    
+  end
+
   private
   def correct_user
     question = Question.find(params[:id])
