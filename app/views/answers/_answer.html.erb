@@ -1,4 +1,4 @@
-<h3> <%= answer.responder.name %>'s answer </h3>
+<h3><%= answer.responder.name %>'s answer </h3>
 <p><%= answer.text %></p>
 <div class='comments'>
   <% answer.comments.each do |comment| %>
@@ -6,3 +6,4 @@
   <% end %>
   <%= link_to "Add Comment", new_answer_comments_path(answer) %>
 </div>
+<%= render partial: "votes/answer_vote", layout: false, locals: {votable: answer} %>
