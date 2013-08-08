@@ -8,7 +8,7 @@
 </ul>
 <div class='comments'>
   <% @question.comments.each do |comment| %>
-    <%= render partial: "comments/comments", layout: false, locals: {comment: comment} %>
+    <%= render partial: "comments/comment", layout: false, locals: {comment: comment} %>
   <% end %>
   <%= link_to "Add Comment", new_question_comments_path(@question) %>
 </div>

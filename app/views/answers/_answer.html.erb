@@ -2,7 +2,7 @@
 <p><%= answer.text %></p>
 <div class='comments'>
   <% answer.comments.each do |comment| %>
-    <%= render partial: "comments/comments", layout: false, locals: {comment: comment} %>
+    <%= render partial: "comments/comment", layout: false, locals: {comment: comment} %>
   <% end %>
   <%= link_to "Add Comment", new_answer_comments_path(answer) %>
 </div>
