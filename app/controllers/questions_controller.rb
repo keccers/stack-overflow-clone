@@ -1,5 +1,5 @@
 class QuestionsController < ApplicationController
-  before_filter :user_signed_in?, only: :create
+  before_filter :user_signed_in?, only: :new
   before_filter :correct_user, only: :destroy
 
   def index
