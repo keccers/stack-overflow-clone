@@ -16,9 +16,9 @@ class QuestionsController < ApplicationController
   def create
     @question = current_user.questions.create(params[:question])
     if @question.save
-      redirect_to question_index
+      redirect_to root_url
     else
-      redirect to question_index
+      redirect to root_url
     end
   end
 
