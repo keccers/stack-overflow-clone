@@ -1,0 +1,8 @@
+<h3> <%= @question.title %> </h3>
+<p> <%= @question.text %> </p>
+<p> Asked by: <%= @question.asker.name %></p>
+<ul>Tags:
+  <% @question.tags.each do |tag|  %>
+    <li><%= tag.text %></li>
+  <% end %>
+</ul>

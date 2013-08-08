@@ -1,0 +1,11 @@
+<% if @error %>
+  <p><%= @error %></p>
+<% end %>
+
+<%= form_for :user do |f| %>
+<%= f.label :email, "Email" %>
+<%= f.text_field :email %>
+<%= f.label :password, "Password" %>
+<%= f.password_field :password %>
+<%= f.submit "Sign In" %>
+<% end %>

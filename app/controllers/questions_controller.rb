@@ -1,5 +1,5 @@
 class QuestionsController < ApplicationController
-  before_filter :user_signed_in?, only: :create
+  before_filter :user_signed_in?, only: :new
   before_filter :correct_user, only: :destroy
 
   def index
@@ -7,6 +7,7 @@ class QuestionsController < ApplicationController
   end
 
   def show
+    @question = Question.find(params[:id])
   end
 
   def new
@@ -16,9 +17,9 @@ class QuestionsController < ApplicationController
   def create
     @question = current_user.questions.create(params[:question])
     if @question.save
-      redirect_to question_index
+      redirect_to root_url
     else
-      redirect to question_index
+      redirect_to root_url
     end
   end
 

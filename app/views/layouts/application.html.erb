@@ -7,8 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <header>
+    <h1><%= link_to "DBC Overflow", root_path %></h1>
+    <% if current_user %>
+      <%= link_to "Logout", logout_path, method: :delete %>
+    <% else %>
+      <%= link_to "Sign In", login_path %>
+      <%= link_to "Sign Up", new_user_path %>
+    <% end %>
+  </header>
+  <div class='container'>
+    <%= yield %>
+  </div>
 </body>
 </html>
