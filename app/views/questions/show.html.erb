@@ -1,5 +1,5 @@
 <h3> <%= @question.title %> </h3>
-<p> <%= @question.text %> </p>
+<p> <%= @question.text.html_safe %> </p>
 <%= render partial: "votes/vote", layout: false, locals: {votable: @question} %>
 <p> Asked by: <%= @question.asker.name %></p>
 <ul>Tags:
@@ -29,7 +29,7 @@
 <h4>Answer this question:</h4>
 <%= form_for @answer do |f| %>
 <%= f.label :text, "Answer" %>
-<%= f.text_area :text, size: "50x5" %>
+<%= f.text_area :text, id: "editor" %>
 <%= f.hidden_field :question_id, value: @question.id  %>
 <%= f.submit %>
 <% end %>
