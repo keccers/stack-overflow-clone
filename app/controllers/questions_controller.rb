@@ -20,7 +20,8 @@ class QuestionsController < ApplicationController
     if @question.save
       redirect_to root_url
     else
-      redirect_to root_url
+      @errors = @question.errors.full_messages
+      render 'new'
     end
   end
 
