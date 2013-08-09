@@ -9,6 +9,7 @@ class QuestionsController < ApplicationController
   def show
     @question = Question.find(params[:id])
     @answer = Answer.new
+    @vote = Vote.new
   end
 
   def new
@@ -17,11 +18,10 @@ class QuestionsController < ApplicationController
 
   def create
     @question = current_user.questions.create(params[:question])
-    if @question.save
+    if @question.valid?
       redirect_to root_url
     else
-      @errors = @question.errors.full_messages
-      render 'new'
+      render :new
     end
   end
 
