@@ -1,5 +1,5 @@
 <h1>Create a Question</h1>
-<% @question.errors.each do |error| %>
-<p><%= error.full_message %></p>
+<% @question.errors.full_messages.each do |error| %>
+<p><%= error %></p>
 <% end %>
 <%= render partial: "form", locals: {question: @question} %>
