@@ -4,7 +4,9 @@
   <% answer.comments.each do |comment| %>
     <%= render partial: "comments/comment", layout: false, locals: {comment: comment} %>
   <% end %>
-  <%= link_to "Add Comment", new_answer_comments_path(answer) %>
+  <div class='js-comment'>
+    <%= link_to "Add Comment", new_answer_comments_path(answer), class: 'new-comment' %>
+  </div>
 </div>
 
 <%= render partial: "votes/vote", layout: false, locals: {votable: answer} %>

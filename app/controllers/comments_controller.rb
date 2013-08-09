@@ -4,15 +4,16 @@ class CommentsController < ApplicationController
 
   def new
     @comment = Comment.new
+    render partial: "new", layout: false, locals: { comment: @comment }
   end
 
   def create
     @comment = @commentable.comments.create(params[:comment])
     if @comment.valid?
-      @commentable.instance_of?(Answer) ? (redirect_to @commentable.question) : (redirect_to @commentable)
+      render partial: "comment", layout: false, locals: { comment: @comment }
     else
       @errors = @comment.errors.full_messages
-      render "new"
+      render partial: "comment", layout: false, locals: { comment: @comment }
     end
   end
 
