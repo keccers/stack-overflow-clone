@@ -2,7 +2,8 @@
 *An introductory Ruby on Rails project that replicates the functionality of [Stack Overflow](http://www.stackoverflow.com)*
 
 ###See It Live
-[Stack Overflow Clone on Heroku](http://www.mysterious-basin-9653.herokuapp.com)
+[Production](http://www.mysterious-basin-9653.herokuapp.com)
+[Staging](http://www.aqueous-retreat-6014.herokuapp.com)
 
 ###Feature Summary
 * Visitors can access all information without creating an account
