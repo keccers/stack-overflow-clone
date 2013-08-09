@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   def index
     @users = User.all
   end
-  
+
   def create
     @user = User.create(params[:user])
     if @user.valid?
@@ -12,8 +12,7 @@ class UsersController < ApplicationController
       redirect_to @user
     else
       @user.errors.delete(:password_digest) if @user.errors[:password_digest]
-      @errors = @user.errors.full_messages
-      render 'new'
+      render :new
     end
   end
 
@@ -35,8 +34,7 @@ class UsersController < ApplicationController
     if @user.update_attributes(params[:user])
       redirect_to @user
     else
-      @errors = @user.errors.full_messages
-      render 'edit'
+      render :edit
     end
   end
 
