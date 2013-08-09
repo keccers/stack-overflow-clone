@@ -1,0 +1,48 @@
+/*COLOR PALETTE: IF YOU LIKE THE COLORS YOU CAN USE ME IF YOU IMPLEMENT SASS!
+$darkgreen: #043836;
+$lightgreen: #0a827c;
+$tan: #ab827c;
+$orange: #fa482e;
+$yellow: #f4a32e;
+*/
+
+
+
+/*BASE STYLES*/
+body {
+  color: #141414;
+  font-family: 'Georgia', sans-serif;
+  padding: 1em 2.5em;
+}
+
+a {
+  color: #043836;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a827c;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+/*MESSAGES & HELPERS*/
+.errors {
+  color: #fa482e;
+}
+
+.divider {
+  border-top: 1px dotted #043836;
+}
+
+.center {
+  text-align: center;
+}
