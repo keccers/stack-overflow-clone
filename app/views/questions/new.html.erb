@@ -1,2 +1,7 @@
-<h1>IT WORKSSSSSSSSSSSSSSSSSSSSS</h1>
+<h1>Create a Question</h1>
+<% if @errors %>
+<% @errors.each do |error| %>
+<p><%= error %></p>
+<% end %>
+<% end %>
 <%= render partial: "form", locals: {question: @question} %>
