@@ -7,7 +7,7 @@
   <%= link_to "Add Comment", new_answer_comments_path(answer) %>
 </div>
 
-<%= render partial: "votes/answer_vote", layout: false, locals: {votable: answer} %>
+<%= render partial: "votes/vote", layout: false, locals: {votable: answer} %>
 
 <% if current_user && current_user.id == answer.question.asker_id %>
   <%= form_for :best_answer, :url => best_answer_path, html: {class: "best-answer"} do |f| %>
