@@ -22,6 +22,7 @@ class UsersController < ApplicationController
 
   def show
     @user = current_user
+    @image_url = Gravatar.new(@user.email).image_url
   end
 
   def edit

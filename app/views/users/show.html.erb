@@ -1,1 +1,21 @@
-<h1> User Page </h1>
+<h1> <%=@user.name%> </h1>
+<%=image_tag(@image_url)%>
+  <ul>
+    <li>Email: <%=@user.email%></li>
+    <li>Member Since: <%=time_in_words(@user.created_at)%></li>
+    <li>About Me:<%=@user.about%></li>
+  </ul>
+
+  <h2>Questions</h2>
+  	<%if @user.questions%>
+  	  <%@user.questions.each do |question|%>
+  	    <ul>
+  	      <li><%=link_to(question.title, question)%></li>
+  	    </ul>
+  	  <%end%>
+  	<%else%>
+  	  <h3> User has not asked any questions. </h3>
+  	<%end%>
+
+  	<h2>Answers<h2>
+  		#TODO: list of users answers
