@@ -8,7 +8,7 @@ class VotesController < ApplicationController
 
   def create
     @vote = current_user.votes.create(params[:vote])
-    render partial: 'votes/vote', layout: false, locals: { votable: @vote.votable }
+    render partial: 'votes/voted', layout: false, locals: { votable: @vote.votable }
   end
 
   private
