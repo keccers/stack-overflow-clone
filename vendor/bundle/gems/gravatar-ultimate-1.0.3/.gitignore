@@ -1,0 +1,37 @@
+.idea
+tmp
+
+## MAC OS
+.DS_Store
+
+## TEXTMATE
+*.tmproj
+tmtags
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.swp
+
+## PROJECT::GENERAL
+coverage
+rdoc
+pkg
+
+## PROJECT::SPECIFIC
+spec/fixtures/requests
+spec/credentials.yml
+
+
+rails*/.bundle
+
+# Ignore the default SQLite database.
+rails*/db/*.sqlite3
+
+# Ignore all logfiles and tempfiles.
+rails*/log/*.log
+rails*/tmp
+
