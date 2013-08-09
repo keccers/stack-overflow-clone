@@ -2,6 +2,10 @@
 <p> <%= @question.text %> </p>
 <%= render partial: "votes/question_vote", layout: false, locals: {votable: @question} %>
 <p> Asked by: <%= @question.asker.name %></p>
+<% if current_user.id == @question.asker.id %>
+<%= link_to("Edit", edit_question_path(@question)) %>
+<%= link_to("Delete", question_path, method: :delete) %>
+<% end %>
 <ul>Tags:
   <% @question.tags.each do |tag|  %>
     <li><%= tag.text %></li>
