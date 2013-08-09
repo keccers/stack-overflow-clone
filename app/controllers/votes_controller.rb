@@ -7,9 +7,8 @@ class VotesController < ApplicationController
   end
 
   def create
-    @vote = current_user.votes.new(params[:vote])
-    @errors = @vote.errors.full_messages unless @vote.save
-    ( @vote.votable_type == "Question" ) ? ( redirect_to @vote.votable ) : ( redirect_to question_path(@vote.votable.question) )
+    @vote = current_user.votes.create(params[:vote])
+    render partial: 'votes/voted', layout: false, locals: { votable: @vote.votable }
   end
 
   private
