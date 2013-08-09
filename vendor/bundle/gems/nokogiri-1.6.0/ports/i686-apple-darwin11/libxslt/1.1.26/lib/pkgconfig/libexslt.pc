@@ -1,0 +1,12 @@
+prefix=/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+
+Name: libexslt
+Version: 0.8.15
+Description: EXSLT Extension library
+Requires: libxml-2.0
+Libs: -L${libdir} -lexslt -lxslt  -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -lxml2 -lz -lpthread -liconv -lm  
+Cflags: -I${includedir}

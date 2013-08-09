@@ -1,0 +1,170 @@
+make  all-recursive
+Making all in libxslt
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT attrvt.lo -MD -MP -MF .deps/attrvt.Tpo -c -o attrvt.lo attrvt.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT attrvt.lo -MD -MP -MF .deps/attrvt.Tpo -c attrvt.c  -fno-common -DPIC -o .libs/attrvt.o
+mv -f .deps/attrvt.Tpo .deps/attrvt.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT xslt.lo -MD -MP -MF .deps/xslt.Tpo -c -o xslt.lo xslt.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT xslt.lo -MD -MP -MF .deps/xslt.Tpo -c xslt.c  -fno-common -DPIC -o .libs/xslt.o
+mv -f .deps/xslt.Tpo .deps/xslt.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT xsltlocale.lo -MD -MP -MF .deps/xsltlocale.Tpo -c -o xsltlocale.lo xsltlocale.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT xsltlocale.lo -MD -MP -MF .deps/xsltlocale.Tpo -c xsltlocale.c  -fno-common -DPIC -o .libs/xsltlocale.o
+mv -f .deps/xsltlocale.Tpo .deps/xsltlocale.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT xsltutils.lo -MD -MP -MF .deps/xsltutils.Tpo -c -o xsltutils.lo xsltutils.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT xsltutils.lo -MD -MP -MF .deps/xsltutils.Tpo -c xsltutils.c  -fno-common -DPIC -o .libs/xsltutils.o
+mv -f .deps/xsltutils.Tpo .deps/xsltutils.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT pattern.lo -MD -MP -MF .deps/pattern.Tpo -c -o pattern.lo pattern.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT pattern.lo -MD -MP -MF .deps/pattern.Tpo -c pattern.c  -fno-common -DPIC -o .libs/pattern.o
+mv -f .deps/pattern.Tpo .deps/pattern.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT templates.lo -MD -MP -MF .deps/templates.Tpo -c -o templates.lo templates.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT templates.lo -MD -MP -MF .deps/templates.Tpo -c templates.c  -fno-common -DPIC -o .libs/templates.o
+mv -f .deps/templates.Tpo .deps/templates.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT variables.lo -MD -MP -MF .deps/variables.Tpo -c -o variables.lo variables.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT variables.lo -MD -MP -MF .deps/variables.Tpo -c variables.c  -fno-common -DPIC -o .libs/variables.o
+mv -f .deps/variables.Tpo .deps/variables.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT keys.lo -MD -MP -MF .deps/keys.Tpo -c -o keys.lo keys.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT keys.lo -MD -MP -MF .deps/keys.Tpo -c keys.c  -fno-common -DPIC -o .libs/keys.o
+mv -f .deps/keys.Tpo .deps/keys.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT numbers.lo -MD -MP -MF .deps/numbers.Tpo -c -o numbers.lo numbers.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT numbers.lo -MD -MP -MF .deps/numbers.Tpo -c numbers.c  -fno-common -DPIC -o .libs/numbers.o
+mv -f .deps/numbers.Tpo .deps/numbers.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT extensions.lo -MD -MP -MF .deps/extensions.Tpo -c -o extensions.lo extensions.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT extensions.lo -MD -MP -MF .deps/extensions.Tpo -c extensions.c  -fno-common -DPIC -o .libs/extensions.o
+mv -f .deps/extensions.Tpo .deps/extensions.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT extra.lo -MD -MP -MF .deps/extra.Tpo -c -o extra.lo extra.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT extra.lo -MD -MP -MF .deps/extra.Tpo -c extra.c  -fno-common -DPIC -o .libs/extra.o
+mv -f .deps/extra.Tpo .deps/extra.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT functions.lo -MD -MP -MF .deps/functions.Tpo -c -o functions.lo functions.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT functions.lo -MD -MP -MF .deps/functions.Tpo -c functions.c  -fno-common -DPIC -o .libs/functions.o
+mv -f .deps/functions.Tpo .deps/functions.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT namespaces.lo -MD -MP -MF .deps/namespaces.Tpo -c -o namespaces.lo namespaces.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT namespaces.lo -MD -MP -MF .deps/namespaces.Tpo -c namespaces.c  -fno-common -DPIC -o .libs/namespaces.o
+namespaces.c: In function ‘xsltGetSpecialNamespace’:
+namespaces.c:588: warning: pointer targets in assignment differ in signedness
+mv -f .deps/namespaces.Tpo .deps/namespaces.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT imports.lo -MD -MP -MF .deps/imports.Tpo -c -o imports.lo imports.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT imports.lo -MD -MP -MF .deps/imports.Tpo -c imports.c  -fno-common -DPIC -o .libs/imports.o
+mv -f .deps/imports.Tpo .deps/imports.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT attributes.lo -MD -MP -MF .deps/attributes.Tpo -c -o attributes.lo attributes.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT attributes.lo -MD -MP -MF .deps/attributes.Tpo -c attributes.c  -fno-common -DPIC -o .libs/attributes.o
+mv -f .deps/attributes.Tpo .deps/attributes.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT documents.lo -MD -MP -MF .deps/documents.Tpo -c -o documents.lo documents.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT documents.lo -MD -MP -MF .deps/documents.Tpo -c documents.c  -fno-common -DPIC -o .libs/documents.o
+mv -f .deps/documents.Tpo .deps/documents.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT preproc.lo -MD -MP -MF .deps/preproc.Tpo -c -o preproc.lo preproc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT preproc.lo -MD -MP -MF .deps/preproc.Tpo -c preproc.c  -fno-common -DPIC -o .libs/preproc.o
+mv -f .deps/preproc.Tpo .deps/preproc.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT transform.lo -MD -MP -MF .deps/transform.Tpo -c -o transform.lo transform.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT transform.lo -MD -MP -MF .deps/transform.Tpo -c transform.c  -fno-common -DPIC -o .libs/transform.o
+mv -f .deps/transform.Tpo .deps/transform.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2    -g -O2 -Wall -MT security.lo -MD -MP -MF .deps/security.Tpo -c -o security.lo security.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -MT security.lo -MD -MP -MF .deps/security.Tpo -c security.c  -fno-common -DPIC -o .libs/security.o
+mv -f .deps/security.Tpo .deps/security.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2 -Wall   -version-info 2:26:1  -o libxslt.la -rpath /Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib attrvt.lo xslt.lo xsltlocale.lo xsltutils.lo pattern.lo templates.lo variables.lo keys.lo numbers.lo extensions.lo extra.lo functions.lo namespaces.lo imports.lo attributes.lo documents.lo preproc.lo transform.lo security.lo -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -lxml2 -lz -lpthread -liconv -lm  
+libtool: link: gcc -dynamiclib -Wl,-undefined -Wl,dynamic_lookup -o .libs/libxslt.1.dylib  .libs/attrvt.o .libs/xslt.o .libs/xsltlocale.o .libs/xsltutils.o .libs/pattern.o .libs/templates.o .libs/variables.o .libs/keys.o .libs/numbers.o .libs/extensions.o .libs/extra.o .libs/functions.o .libs/namespaces.o .libs/imports.o .libs/attributes.o .libs/documents.o .libs/preproc.o .libs/transform.o .libs/security.o   -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib /Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib/libxml2.dylib -lz -lpthread -liconv -lm    -install_name  /Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib/libxslt.1.dylib -compatibility_version 3 -current_version 3.26 -Wl,-single_module
+libtool: link: dsymutil .libs/libxslt.1.dylib || :
+libtool: link: (cd ".libs" && rm -f "libxslt.dylib" && ln -s "libxslt.1.dylib" "libxslt.dylib")
+libtool: link: ( cd ".libs" && rm -f "libxslt.la" && ln -s "../libxslt.la" "libxslt.la" )
+Making all in libexslt
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall    -g -O2 -Wall -MT exslt.lo -MD -MP -MF .deps/exslt.Tpo -c -o exslt.lo exslt.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -g -O2 -Wall -MT exslt.lo -MD -MP -MF .deps/exslt.Tpo -c exslt.c  -fno-common -DPIC -o .libs/exslt.o
+mv -f .deps/exslt.Tpo .deps/exslt.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall    -g -O2 -Wall -MT common.lo -MD -MP -MF .deps/common.Tpo -c -o common.lo common.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -g -O2 -Wall -MT common.lo -MD -MP -MF .deps/common.Tpo -c common.c  -fno-common -DPIC -o .libs/common.o
+mv -f .deps/common.Tpo .deps/common.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall    -g -O2 -Wall -MT crypto.lo -MD -MP -MF .deps/crypto.Tpo -c -o crypto.lo crypto.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -g -O2 -Wall -MT crypto.lo -MD -MP -MF .deps/crypto.Tpo -c crypto.c  -fno-common -DPIC -o .libs/crypto.o
+mv -f .deps/crypto.Tpo .deps/crypto.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall    -g -O2 -Wall -MT math.lo -MD -MP -MF .deps/math.Tpo -c -o math.lo math.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -g -O2 -Wall -MT math.lo -MD -MP -MF .deps/math.Tpo -c math.c  -fno-common -DPIC -o .libs/math.o
+mv -f .deps/math.Tpo .deps/math.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall    -g -O2 -Wall -MT sets.lo -MD -MP -MF .deps/sets.Tpo -c -o sets.lo sets.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -g -O2 -Wall -MT sets.lo -MD -MP -MF .deps/sets.Tpo -c sets.c  -fno-common -DPIC -o .libs/sets.o
+mv -f .deps/sets.Tpo .deps/sets.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall    -g -O2 -Wall -MT functions.lo -MD -MP -MF .deps/functions.Tpo -c -o functions.lo functions.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -g -O2 -Wall -MT functions.lo -MD -MP -MF .deps/functions.Tpo -c functions.c  -fno-common -DPIC -o .libs/functions.o
+mv -f .deps/functions.Tpo .deps/functions.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall    -g -O2 -Wall -MT strings.lo -MD -MP -MF .deps/strings.Tpo -c -o strings.lo strings.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -g -O2 -Wall -MT strings.lo -MD -MP -MF .deps/strings.Tpo -c strings.c  -fno-common -DPIC -o .libs/strings.o
+mv -f .deps/strings.Tpo .deps/strings.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall    -g -O2 -Wall -MT date.lo -MD -MP -MF .deps/date.Tpo -c -o date.lo date.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -g -O2 -Wall -MT date.lo -MD -MP -MF .deps/date.Tpo -c date.c  -fno-common -DPIC -o .libs/date.o
+mv -f .deps/date.Tpo .deps/date.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall    -g -O2 -Wall -MT saxon.lo -MD -MP -MF .deps/saxon.Tpo -c -o saxon.lo saxon.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -g -O2 -Wall -MT saxon.lo -MD -MP -MF .deps/saxon.Tpo -c saxon.c  -fno-common -DPIC -o .libs/saxon.o
+mv -f .deps/saxon.Tpo .deps/saxon.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall    -g -O2 -Wall -MT dynamic.lo -MD -MP -MF .deps/dynamic.Tpo -c -o dynamic.lo dynamic.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall -g -O2 -Wall -MT dynamic.lo -MD -MP -MF .deps/dynamic.Tpo -c dynamic.c  -fno-common -DPIC -o .libs/dynamic.o
+mv -f .deps/dynamic.Tpo .deps/dynamic.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2 -Wall  -version-info 8:15:8   -o libexslt.la -rpath /Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib exslt.lo common.lo crypto.lo math.lo sets.lo functions.lo strings.lo date.lo saxon.lo dynamic.lo ../libxslt/libxslt.la -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -lxml2 -lz -lpthread -liconv -lm  
+libtool: link: gcc -dynamiclib -Wl,-undefined -Wl,dynamic_lookup -o .libs/libexslt.0.dylib  .libs/exslt.o .libs/common.o .libs/crypto.o .libs/math.o .libs/sets.o .libs/functions.o .libs/strings.o .libs/date.o .libs/saxon.o .libs/dynamic.o   ../libxslt/.libs/libxslt.dylib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib /Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib/libxml2.dylib -lz -lpthread -liconv -lm    -install_name  /Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib/libexslt.0.dylib -compatibility_version 9 -current_version 9.15 -Wl,-single_module
+libtool: link: dsymutil .libs/libexslt.0.dylib || :
+libtool: link: (cd ".libs" && rm -f "libexslt.dylib" && ln -s "libexslt.0.dylib" "libexslt.dylib")
+libtool: link: ( cd ".libs" && rm -f "libexslt.la" && ln -s "../libexslt.la" "libexslt.la" )
+Making all in xsltproc
+gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall    -g -O2 -Wall -MT xsltproc.o -MD -MP -MF .deps/xsltproc.Tpo -c -o xsltproc.o xsltproc.c
+mv -f .deps/xsltproc.Tpo .deps/xsltproc.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2 -Wall   -o xsltproc xsltproc.o  ../libxslt/libxslt.la ../libexslt/libexslt.la -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -lxml2 -lz -lpthread -liconv -lm -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -lxml2 -lz -lpthread -liconv -lm   
+libtool: link: gcc -g -O2 -Wall -o .libs/xsltproc xsltproc.o  ../libxslt/.libs/libxslt.dylib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib ../libexslt/.libs/libexslt.dylib /Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ext/nokogiri/tmp/i686-apple-darwin11/ports/libxslt/1.1.26/libxslt-1.1.26/libxslt/.libs/libxslt.dylib /Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib/libxml2.dylib -lz -lpthread -liconv -lm
+gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../libxslt -I../libexslt -I.. -I../libxslt -I../libexslt -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -g -O2 -Wall    -g -O2 -Wall -MT testThreads.o -MD -MP -MF .deps/testThreads.Tpo -c -o testThreads.o testThreads.c
+mv -f .deps/testThreads.Tpo .deps/testThreads.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2 -Wall   -o testThreads testThreads.o -lpthread ../libxslt/libxslt.la ../libexslt/libexslt.la -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -lxml2 -lz -lpthread -liconv -lm -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -lxml2 -lz -lpthread -liconv -lm   
+libtool: link: gcc -g -O2 -Wall -o .libs/testThreads testThreads.o  ../libxslt/.libs/libxslt.dylib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib ../libexslt/.libs/libexslt.dylib /Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ext/nokogiri/tmp/i686-apple-darwin11/ports/libxslt/1.1.26/libxslt-1.1.26/libxslt/.libs/libxslt.dylib /Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib/libxml2.dylib -lz -lpthread -liconv -lm
+Making all in doc
+Making all in tests
+Making all in docs
+make[3]: Nothing to be done for `all'.
+Making all in REC1
+make[3]: Nothing to be done for `all'.
+Making all in REC2
+make[3]: Nothing to be done for `all'.
+Making all in REC
+make[3]: Nothing to be done for `all'.
+Making all in general
+make[3]: Nothing to be done for `all'.
+Making all in namespaces
+make[3]: Nothing to be done for `all'.
+Making all in keys
+make[3]: Nothing to be done for `all'.
+Making all in numbers
+make[3]: Nothing to be done for `all'.
+Making all in documents
+make[3]: Nothing to be done for `all'.
+Making all in extensions
+make[3]: Nothing to be done for `all'.
+Making all in reports
+make[3]: Nothing to be done for `all'.
+Making all in xmlspec
+make[3]: Nothing to be done for `all'.
+Making all in multiple
+make[3]: Nothing to be done for `all'.
+Making all in xinclude
+make[3]: Nothing to be done for `all'.
+Making all in XSLTMark
+make[3]: Nothing to be done for `all'.
+Making all in docbook
+make[3]: Nothing to be done for `all'.
+Making all in exslt
+Making all in common
+make[4]: Nothing to be done for `all'.
+Making all in functions
+make[4]: Nothing to be done for `all'.
+Making all in math
+make[4]: Nothing to be done for `all'.
+Making all in sets
+make[4]: Nothing to be done for `all'.
+Making all in strings
+make[4]: Nothing to be done for `all'.
+Making all in dynamic
+make[4]: Nothing to be done for `all'.
+Making all in date
+make[4]: Nothing to be done for `all'.
+make[4]: Nothing to be done for `all-am'.
+Making all in plugins
+make[3]: Nothing to be done for `all'.
+make[3]: Nothing to be done for `all-am'.
+sed -e 's?\@XSLT_LIBDIR\@?-L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib?g' \
+	    -e 's?\@XSLT_INCLUDEDIR\@?-I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include?g' \
+	    -e 's?\@VERSION\@?1.1.26?g' \
+	    -e 's?\@XSLT_LIBS\@?-lxslt  -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -lxml2 -lz -lpthread -liconv -lm ?g' \
+	       < ./xsltConf.sh.in > xsltConf.tmp \
+	&& mv xsltConf.tmp xsltConf.sh

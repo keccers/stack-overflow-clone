@@ -1,0 +1,13 @@
+prefix=/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.8.0
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -lpthread -lz  -liconv -lm  
+Cflags: -I${includedir}/libxml2 

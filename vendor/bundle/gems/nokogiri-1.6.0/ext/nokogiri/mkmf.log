@@ -1,0 +1,398 @@
+package configuration for libxslt is not found
+package configuration for libxml-2.0 is not found
+package configuration for libiconv is not found
+find_header: checking for libxml/parser.h... -------------------- yes
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib     -lruby-static  -lpthread -ldl -lobjc  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"/usr/local/bin/gcc-4.2 -E -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"'  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libxml/parser.h>
+/* end */
+
+--------------------
+
+find_header: checking for libxslt/xslt.h... -------------------- yes
+
+"/usr/local/bin/gcc-4.2 -E -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"'  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libxslt/xslt.h>
+/* end */
+
+--------------------
+
+find_header: checking for libexslt/exslt.h... -------------------- yes
+
+"/usr/local/bin/gcc-4.2 -E -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"'  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <libexslt/exslt.h>
+/* end */
+
+--------------------
+
+have_func: checking for iconv_open() in iconv.h... -------------------- no
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib     -lruby-static  -lpthread -ldl -lobjc  "
+Undefined symbols for architecture x86_64:
+  "_iconv_open", referenced from:
+      _t in cc6EWqnK.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <iconv.h>
+4: 
+5: /*top*/
+6: int main() {return 0;}
+7: int t() { void ((*volatile p)()); p = (void ((*)()))iconv_open; return 0; }
+/* end */
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib     -lruby-static  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:7: error: too few arguments to function ‘iconv_open’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <iconv.h>
+4: 
+5: /*top*/
+6: int main() {return 0;}
+7: int t() { iconv_open(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for iconv_open() in -liconv... -------------------- yes
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib     -lruby-static -liconv  -lpthread -ldl -lobjc  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <iconv.h>
+4: 
+5: /*top*/
+6: int main() {return 0;}
+7: int t() { void ((*volatile p)()); p = (void ((*)()))iconv_open; return 0; }
+/* end */
+
+--------------------
+
+find_library: checking for xmlParseDoc() in -lxml2... -------------------- yes
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -liconv  -lruby-static -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlParseDoc’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { void ((*volatile p)()); p = (void ((*)()))xmlParseDoc; return 0; }
+/* end */
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -liconv  -lruby-static -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlParseDoc’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { xmlParseDoc(); return 0; }
+/* end */
+
+--------------------
+
+find_library: checking for xsltParseStylesheetDoc() in -lxslt... -------------------- yes
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lxml2 -liconv  -lruby-static -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xsltParseStylesheetDoc’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { void ((*volatile p)()); p = (void ((*)()))xsltParseStylesheetDoc; return 0; }
+/* end */
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lxml2 -liconv  -lruby-static -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xsltParseStylesheetDoc’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { xsltParseStylesheetDoc(); return 0; }
+/* end */
+
+--------------------
+
+find_library: checking for exsltFuncRegister() in -lexslt... -------------------- yes
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘exsltFuncRegister’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { void ((*volatile p)()); p = (void ((*)()))exsltFuncRegister; return 0; }
+/* end */
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘exsltFuncRegister’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { exsltFuncRegister(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlHasFeature()... -------------------- yes
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlHasFeature’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { void ((*volatile p)()); p = (void ((*)()))xmlHasFeature; return 0; }
+/* end */
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlHasFeature’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { xmlHasFeature(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlFirstElementChild()... -------------------- yes
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlFirstElementChild’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { void ((*volatile p)()); p = (void ((*)()))xmlFirstElementChild; return 0; }
+/* end */
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlFirstElementChild’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { xmlFirstElementChild(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlRelaxNGSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return 0; }
+/* end */
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlRelaxNGSetParserStructuredErrors’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetParserStructuredErrors()... -------------------- yes
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlRelaxNGSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetParserStructuredErrors; return 0; }
+/* end */
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlRelaxNGSetParserStructuredErrors’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { xmlRelaxNGSetParserStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlRelaxNGSetValidStructuredErrors()... -------------------- yes
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlRelaxNGSetValidStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { void ((*volatile p)()); p = (void ((*)()))xmlRelaxNGSetValidStructuredErrors; return 0; }
+/* end */
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlRelaxNGSetValidStructuredErrors’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { xmlRelaxNGSetValidStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetValidStructuredErrors()... -------------------- yes
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlSchemaSetValidStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetValidStructuredErrors; return 0; }
+/* end */
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlSchemaSetValidStructuredErrors’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { xmlSchemaSetValidStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for xmlSchemaSetParserStructuredErrors()... -------------------- yes
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: error: ‘xmlSchemaSetParserStructuredErrors’ undeclared (first use in this function)
+conftest.c:5: error: (Each undeclared identifier is reported only once
+conftest.c:5: error: for each function it appears in.)
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { void ((*volatile p)()); p = (void ((*)()))xmlSchemaSetParserStructuredErrors; return 0; }
+/* end */
+
+"/usr/local/bin/gcc-4.2 -o conftest -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/Users/adayag/.rbenv/versions/1.9.3-p0/include/ruby-1.9.1 -I. -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include/libxml2 -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/include -I/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/include -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/adayag/.rbenv/versions/1.9.3-p0/include'   -O3 -Wno-error=shorten-64-to-32  -pipe  -g -DXP_UNIX -Wall -Wcast-qual -Wwrite-strings -Wconversion -Wmissing-noreturn -Winline -DNOKOGIRI_USE_PACKAGED_LIBRARIES -DNOKOGIRI_LIBXML2_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0"' -DNOKOGIRI_LIBXSLT_PATH='"/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26"' conftest.c  -L. -L/Users/adayag/.rbenv/versions/1.9.3-p0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -L/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib -L. -L'/Users/adayag/.rbenv/versions/1.9.3-p0/lib'  -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxml2/2.8.0/lib -Wl,-rpath,/Users/adayag/Desktop/stack_overflow/vendor/bundle/gems/nokogiri-1.6.0/ports/i686-apple-darwin11/libxslt/1.1.26/lib    -lexslt -lxslt -lxml2 -liconv  -lruby-static -lexslt -lxslt -lxml2 -liconv  -lpthread -ldl -lobjc  "
+conftest.c: In function ‘t’:
+conftest.c:5: warning: implicit declaration of function ‘xmlSchemaSetParserStructuredErrors’
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: /*top*/
+4: int main() {return 0;}
+5: int t() { xmlSchemaSetParserStructuredErrors(); return 0; }
+/* end */
+
+--------------------
+
