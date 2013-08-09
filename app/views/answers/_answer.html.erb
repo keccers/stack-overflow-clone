@@ -1,5 +1,5 @@
 <h3><%= answer.responder.name %>'s answer </h3>
-<p><%= answer.text %></p>
+<p><%= answer.text.html_safe %></p>
 <div class='comments'>
   <% answer.comments.each do |comment| %>
     <%= render partial: "comments/comment", layout: false, locals: {comment: comment} %>
