@@ -1,16 +1,12 @@
-
 <% @user.errors.full_messages.each do |error| %>
   <p><%= error %></p>
 <% end %>
 
-<%= form_for @user do |f| %>
-  <%= f.label "Name" %>
-  <%= f.text_field :name, autofocus: true %>
-  <%= f.label "Email" %>
-  <%= f.text_field :email %>
-  <%= f.label "Password" %>
-  <%= f.password_field :password %>
-  <%= f.label "Password Confirmation" %>
-  <%= f.password_field :password_confirmation %>
-  <%= f.submit "Submit" %>
+<%= form_for @user, html: {class: "pure-form pure-form-stacked"} do |f| %>
+  <legend>Register</legend>
+    <%= f.text_field :name, placeholder: "Name", autofocus: true %>
+    <%= f.text_field :email, placeholder: "Email" %>
+    <%= f.password_field :password, placeholder: "Password" %>
+    <%= f.password_field :password_confirmation, placeholder: "Password Confirmation" %>
+    <%= f.submit "Submit", class: "pure-button pure-button-primary" %>
 <% end %>

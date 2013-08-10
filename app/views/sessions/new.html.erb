@@ -2,10 +2,9 @@
   <p><%= @error %></p>
 <% end %>
 
-<%= form_for :user do |f| %>
-<%= f.label :email, "Email" %>
-<%= f.text_field :email, autofocus: true %>
-<%= f.label :password, "Password" %>
-<%= f.password_field :password %>
-<%= f.submit "Sign In" %>
+<%= form_for :user, html: {class: "pure-form pure-form-stacked"} do |f| %>
+  <legend>Sign In</legend>
+    <%= f.text_field :email, placeholder: "Email", autofocus: true %>
+    <%= f.password_field :password, placeholder: "Password" %>
+    <%= f.submit "Sign In", class: "pure-button pure-button-primary" %>
 <% end %>

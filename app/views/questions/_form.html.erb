@@ -1,9 +1,7 @@
-<%= form_for [question], html: {class: "create-post"} do |f| %>
-<%= f.label :title, 'Question Title' %>
-<%= f.text_field :title, autofocus: true %>
-<%= f.label :text, 'Question Text' %>
-<%= f.text_area :text %>
-<%= f.label :tag_list, "Tags" %>
-<%= f.text_field :tag_list %>
-<%= f.submit  %>
+<%= form_for [question], html: {class: "pure-form pure-form-stacked"} do |f| %>
+  <legend> Create a Question</legend>
+  <%= f.text_field :title, placeholder: "Title", autofocus: true %>
+  <%= f.text_area :text %>
+  <%= f.text_field :tag_list, placeholder: "Comma Separated Tags" %>
+  <%= f.submit class: "pure-button pure-button-primary" %>
 <% end %>
