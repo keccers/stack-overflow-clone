@@ -1,23 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DbcOverflow</title>
+  <title>SO Cloned</title>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.1/pure-min.css">
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <script src="http://use.typekit.net/ajf8ggy.js"></script>
+  <script>
+    try { Typekit.load(); } catch (e) {}
+  </script>
 </head>
 <body>
-  <header>
-    <h1><%= link_to "DBC Overflow", root_path %></h1>
-    <% if current_user %>
-      <%= link_to "Logout", logout_path, method: :delete %>
-    <% else %>
-      <%= link_to "Sign In", login_path %>
-      <%= link_to "Sign Up", new_user_path %>
-    <% end %>
-  </header>
-  <div class='container'>
-    <%= yield %>
+  <div class="pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+    <%= link_to "SO Cloned", root_path, class: "pure-menu-heading" %>
+    <ul>
+      <% if current_user %>
+        <li><%= link_to "Create a Question", new_question_path %></li>
+        <li><%= link_to "Logout", logout_path, method: :delete %></li>
+      <% else %>
+        <li><%= link_to "Sign In", login_path %></li>
+        <li><%= link_to "Register", new_user_path %></li>
+      <% end %>
+    </ul>
+  </div>
+
+  <% if current_user %>
+    <div class="small-banner">
+      <h1 class="banner-head">Hi, <%= current_user.name %>. Welcome!</h1>
+  <% else %>
+    <div class="banner">
+      <h1 class="banner-head">A Q&A Website Clone.<br>Register And Ask Questions.</h1>
+  <% end %>
+    </div>
+                                                                  
+  <div class="l-content">
+    <div class="information pure-g-r">
+      <div class="pure-u-1-2">
+        <div class="l-box">
+          <h3 class="information-head">Custom Q&A</h3>
+            <%= yield %>
+        </div>
+      </div>
+
+      <div class="pure-u-1-2">
+        <div class="l-box">
+          <h3 class="information-head">Profile</h3>
+            <%= gravatar_image_tag(current_user.email) %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p class="l-box">
+      Header image courtesy of <a target="_blank" href='http://unsplash.com/'>Unsplash</a>.
+    </p>
   </div>
 </body>
 </html>
