@@ -2,6 +2,9 @@
 <% if !@questions.empty? %>
   <% @questions.each do |question| %>
     <h3><%= link_to question.title, question %></h3>
+    <% if question.best_answer_id %>
+      <%= render partial: "answers/answer_best_text", layout: false, locals: {answer: question.best_answer} %>
+    <% end %>
   <% end %>
 <% else %>
   <h2>No one's asked any questions yet. :(</h2>
