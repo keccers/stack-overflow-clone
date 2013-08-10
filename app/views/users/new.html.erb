@@ -5,7 +5,7 @@
 
 <%= form_for @user do |f| %>
   <%= f.label "Name" %>
-  <%= f.text_field :name %>
+  <%= f.text_field :name, autofocus: true %>
   <%= f.label "Email" %>
   <%= f.text_field :email %>
   <%= f.label "Password" %>
