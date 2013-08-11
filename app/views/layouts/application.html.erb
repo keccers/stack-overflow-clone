@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>DbcOverflow</title>
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700,900' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -16,8 +17,10 @@
       <%= link_to "Sign Up", new_user_path %>
     <% end %>
   </header>
-  <div class='container'>
+  <div class='content'>
     <%= yield %>
   </div>
+  <footer>
+  </footer>
 </body>
 </html>

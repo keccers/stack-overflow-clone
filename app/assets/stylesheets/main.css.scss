@@ -1,0 +1,45 @@
+$lightyellow: #eeee99; 
+$darkyellow: #ede059;
+$lightgreen: #bcc98e;
+$darkgreen: #638270;
+$medblue: #2b434f;
+$darkblue: #0c2538;
+$gray: #333333;
+$white: #ffffff;
+
+@include font-face(star_jediregular, 'star_wars/starjedi-webfont', normal, $asset-pipeline: true);
+
+
+/* Base Element Styles */
+
+body {
+  @include background-image(url("galaxy.jpg"));
+  font-family: 'Source Code Pro', sans-serif;
+  color: $white;
+}
+
+a {
+  color: $lightyellow;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $lightgreen;
+}
+
+h1 {
+ font-family: 'star_jediregular', sans-serif;
+}
+
+
+/* Structure */
+header, .content {
+  @include outer-container;
+  @include span-columns(10);
+  @include shift(1);
+  background-color: transparentize($lightgreen, 0.5)
+}
+
+/**/
+
+

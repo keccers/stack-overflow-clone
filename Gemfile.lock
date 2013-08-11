@@ -30,6 +30,9 @@ GEM
       multi_json (~> 1.0)
     arel (3.0.2)
     bcrypt-ruby (3.0.1)
+    bourbon (3.1.8)
+      sass (>= 3.2.0)
+      thor
     builder (3.0.4)
     capybara (2.1.0)
       mime-types (>= 1.16)
@@ -56,6 +59,7 @@ GEM
       railties (>= 3.0.0)
     faker (1.1.2)
       i18n (~> 0.5)
+    gravatar_image_tag (1.1.3)
     hike (1.2.3)
     i18n (0.6.1)
     journey (1.0.4)
@@ -69,6 +73,9 @@ GEM
     mime-types (1.23)
     mini_portile (0.5.1)
     multi_json (1.7.8)
+    neat (1.3.0)
+      bourbon (>= 2.1)
+      sass (>= 3.2)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     pg (0.16.0)
@@ -138,12 +145,15 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt-ruby (~> 3.0.0)
+  bourbon
   capybara
   coffee-rails (~> 3.2.1)
   database_cleaner
   factory_girl_rails
   faker
+  gravatar_image_tag
   jquery-rails
+  neat
   pg
   rails (= 3.2.13)
   rspec-rails

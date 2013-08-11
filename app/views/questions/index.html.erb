@@ -1,8 +1,10 @@
-<%= link_to("Create A New Question", new_question_path) %>
-<% if !@questions.empty? %>
-  <% @questions.each do |question| %>
-    <h3><%= link_to question.title, question %></h3>
+<div class="welcome">
+  <%= link_to("Create A New Question", new_question_path) %>
+  <% if !@questions.empty? %>
+    <% @questions.each do |question| %>
+      <h3><%= link_to question.title, question %></h3>
+    <% end %>
+  <% else %>
+    <h2>No one's asked any questions yet. :(</h2>
   <% end %>
-<% else %>
-  <h2>No one's asked any questions yet. :(</h2>
-<% end %>
+</div>

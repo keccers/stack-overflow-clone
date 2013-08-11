@@ -1,0 +1,23 @@
+/*
+Errno::ENOENT: No such file or directory - main.scss
+
+Backtrace:
+/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:360:in `read'
+/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:360:in `update_stylesheet'
+/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.10/lib/sass/plugin/compiler.rb:235:in `watch'
+/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.10/lib/sass/plugin.rb:107:in `method_missing'
+/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.10/lib/sass/exec.rb:455:in `watch_or_update'
+/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.10/lib/sass/exec.rb:318:in `process_result'
+/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.10/lib/sass/exec.rb:41:in `parse'
+/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.10/lib/sass/exec.rb:21:in `parse!'
+/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/gems/sass-3.2.10/bin/sass:9:in `<top (required)>'
+/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/bin/sass:23:in `load'
+/Users/apprentice/.rvm/gems/ruby-1.9.3-p374/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory - main.scss"; }
