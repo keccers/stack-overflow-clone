@@ -46,7 +46,11 @@
       <div class="pure-u-1-2">
         <div class="l-box">
           <h3 class="information-head">Profile</h3>
-            <%= gravatar_image_tag(current_user.email) %>
+            <% if current_user %>
+              <%= gravatar_image_tag(current_user.email) %>
+            <% else %>
+              <p>Not logged in.</p>
+            <% end %>
         </div>
       </div>
     </div>
